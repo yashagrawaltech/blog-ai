@@ -9,7 +9,7 @@
   ],
   "routes": [
     {
-      "src": "/get-blog/?",
+      "src": "/(.*)",
       "dest": "index.js"
     }
   ]

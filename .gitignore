@@ -1,0 +1,24 @@
+# Ignore environment variables
+.env
+.env.local
+
+# Ignore node logs and general clutter
+*.log
+logs/
+pids/
+*.pid
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Ignore database dumps/uploads
+dump/
+uploads/
+
+# TypeScript build info
+*.tsbuildinfo

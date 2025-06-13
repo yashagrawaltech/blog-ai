@@ -1,0 +1,7 @@
+node_modules/
+.env
+build/
+dist/
+.cache/
+.next/ # if using Next.js
+coverage/

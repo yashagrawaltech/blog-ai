@@ -81,6 +81,7 @@ const server = http.createServer(async (req, res) => {
             res.end();
         } catch (error) {
             console.log(error);
+            res.end();
         }
     } else {
         res.writeHead(404, { "Content-Type": "text/html" });
